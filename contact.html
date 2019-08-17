@@ -5,20 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contact</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Merriweather&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     
 </head>
 <body>
-    <header>
-        <nav>
-                <h1>Adelita Esparza</h1>
-                <ul>
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                </ul>            
-            </nav>
-    </header>
+        <header class="item1">
+                <h1 id="title">Adelita Esparza</h1>
+                <!-- <nav id="item2"> -->
+                        <ul>
+                                <li id="about"><a href="index.html">About</a></li>
+                                <li id="contact"><a href="#">Contact</a></li>
+                                <li id="port"><a href="portfolio.html">Portfolio</a></li>
+                            </ul>
+                    
+                    
+                    
+                <!-- </nav> -->
+            </header>
+    <section class="container">          
     <h1>Contact</h1><hr>
     <form>            
             <label>Name</label><br>
@@ -28,11 +34,12 @@
             <label>Message</label><br>
             <textarea name="Messages" cols="45" rows="10" maxlength="5000"></textarea><br>
             <input type="submit" value="send the info">
-    </form>    
+    </form>
+    </section> 
     <footer>
-        <p>Created By: Me.</p>
-        &copy; Copyright 2019 All rights reserved.
-    </footer>
+            Created By: Me.<br>
+            &copy; Copyright 2019 All rights reserved.
+        </footer>
     
 </body>
 </html>

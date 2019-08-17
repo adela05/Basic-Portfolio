@@ -1,22 +1,75 @@
 * {
+	margin: 0;
+	padding: 0;
 	box-sizing: border-box;
 }
 body {
-	background: #485563; /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #29323c, #485563); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(
-		to right,
-		#29323c,
-		#485563
-	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background-image: url("../images/hexellence/hexellence.png");
+	font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
+.item1 {
+	background-color: lightgray;
+	display: flex;
+	overflow: hidden;
+}
+
+#title {
+	font-family: 'Merriweather', serif;
+	font-size: 25px;
+	font-weight: bolder;
+	float: left;
+	padding-top: 12px;
+	margin-left: 302px;
+	clear: both;
+}
+
+img {
+	float: left;
+	border-radius: 8px;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+}
+.container {
+	background-color: #fff;
+	width: 960px;
+	height: auto;
+	margin-left: 302px;
+	margin-top: 45px;
+	margin-right: 1262px;
+	margin-bottom: 176px;
+	overflow: hidden;
+}
+.heading {
+	font-size: 30px;
+	font-weight: bold;
+	margin: 20px 10px 20px 25px;
+}
+p {
+	flex-wrap: wrap;
+	margin-top: 20px;
+	font-size: 20px;
+	padding-right: 10px;
+	padding-left: 10px;
+	line-height: 1.6;
+}
+#line3 {
+	float: left;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+
 footer {
 	position: fixed;
 	bottom: 0;
-	width: 99%;
-	padding-bottom: 10px;
+	width: 100%;
+	padding-top: 5px;
+	padding-bottom: 5px;
 	background-color: lightgrey;
-	opacity: 0.5;
+	/* opacity: 0.5; */
 	text-align: center;
 	font-size: 10px;
 }
